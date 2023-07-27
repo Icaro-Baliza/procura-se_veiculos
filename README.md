@@ -14,7 +14,7 @@ O radixsort é um algoritmo baseado no countingsort, que consiste criar um vetor
 ## Complexidade
 Por não utilizar comparações para ordenar, o radixsort é muito utilizado para ordenação lexográfica e principalmente para ordernar chaves com tamanho pequeno, e isso se encaixa perfeitamente com o problema proposto. De acordo com André Oliveira, entre outros autores, em [2], esse algoritmo tem complexidade O(n). Logo, é muito eficiente para ordernar listas com grandes números de elementos, como é o caso do problema proposto. Além disso, Nadathur Satish, entre outros autores, em [1], implementou um método de paralelização do radixsort, dividindo as sequencias em blocos e sendo processadas por processadores independentes. Desse modo, o algoritmo pode chegar a complexidade O(logn), o que seria ótimo para um grande número de elementos (como pode ser visto na figura 2).
 
-![Exemplo de Placa](imagem_2022-10-06_234152442.png)
+![imagem ordem lexicografica](imgs/ordemLexicografica.png)
 
 Figura 2 - Tabela de complexidade
 
